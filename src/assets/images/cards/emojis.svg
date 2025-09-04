@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1498 1077">
+  <defs>
+    <style>
+      .st0 {
+        stroke: #3794ff;
+      }
+      .st0, .st1, .st2, .st3, .st4 {
+        fill-rule: evenodd;
+      }
+      .st0, .st2 {
+        fill: #252526;
+        stroke-miterlimit: 8;
+        stroke-width: 3.4px;
+      }
+      .st5, .st6 {
+        font-family: SegoeUI-Bold, 'Segoe UI';
+        font-weight: 700;
+      }
+      .st7, .st8, .st9, .st10, .st6, .st11 {
+        isolation: isolate;
+      }
+      .st7, .st8, .st10, .st6, .st11 {
+        font-size: 41px;
+      }
+      .st7, .st10, .st6, .st12 {
+        fill: #ccc;
+      }
+      .st7, .st13, .st11 {
+        font-family: SegoeUI, 'Segoe UI';
+      }
+      .st1 {
+        fill: #fff;
+      }
+      .st8 {
+        fill: #d4d4d4;
+      }
+      .st14 {
+        font-family: ArialMT, Arial;
+      }
+      .st2 {
+        stroke: #4a4a4a;
+      }
+      .st3 {
+        fill: #333;
+      }
+      .st4 {
+        fill: #04395e;
+      }
+      .st11 {
+        fill: #aaa;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="st2" d="M39.5,45c0-5.2,4.2-9.5,9.5-9.5h1389c5.2,0,9.5,4.2,9.5,9.5v987c0,5.2-4.2,9.5-9.5,9.5H49c-5.2,0-9.5-4.2-9.5-9.5V45Z"/>
+    <path class="st3" d="M54,34h1376c8.3,0,15,6.7,15,15v75H39V49c0-8.3,6.7-15,15-15Z"/>
+    <g class="st9">
+      <text class="st7" transform="translate(680.6 97)"><tspan x="0" y="0">3</tspan></text>
+    </g>
+    <g class="st9">
+      <text class="st7" transform="translate(702.9 97)"><tspan x="0" y="0">/6</tspan></text>
+    </g>
+    <path class="st0" d="M41.5,127.5h1406v117H41.5v-117Z"/>
+    <g class="st9">
+      <text class="st8" transform="translate(81.9 199)"><tspan class="st13" x="0" y="0">:tada: </tspan><tspan class="st14" x="108.8" y="0">🎉</tspan><tspan class="st13" x="139.5" y="0"> </tspan></text>
+      <text/>
+    </g>
+    <path class="st4" d="M44,262h1392v138H44v-138Z"/>
+    <g class="st9">
+      <text class="st10" transform="translate(77.1 322)"><tspan class="st5" x="0" y="0">:tada: </tspan><tspan class="st14" x="119" y="0">🎉</tspan></text>
+    </g>
+    <g class="st9">
+      <text/>
+    </g>
+    <g class="st9">
+      <text class="st6" transform="translate(175.1 322)"><tspan x="0" y="0"> </tspan></text>
+      <text/>
+    </g>
+    <g class="st9">
+      <text class="st11" transform="translate(77.1 373)"><tspan x="0" y="0">Begin a project.</tspan></text>
+    </g>
+    <g class="st9">
+      <text class="st10" transform="translate(79.4 476)"><tspan class="st5" x="0" y="0">:truck: </tspan><tspan class="st14" x="133.2" y="0">🚚</tspan></text>
+    </g>
+    <g class="st9">
+      <text/>
+    </g>
+    <g class="st9">
+      <text class="st6" transform="translate(191.7 476)"><tspan x="0" y="0"> </tspan></text>
+      <text/>
+    </g>
+    <g class="st9">
+      <text class="st11" transform="translate(79.4 528)"><tspan x="0" y="0">Move or rename resources (e.g.: files, paths, routes).</tspan></text>
+    </g>
+    <path class="st1" d="M95.6,69.2v4.4l-3.8,3.6h36v4h-36l3.7,3.5v4.4l-9.6-9.8h0c0,0,9.6-9.9,9.6-9.9v-.2ZM1389.3,67l9.7,9.8h0c0,0-9.7,9.9-9.7,9.9v-4.4l3.7-3.5h-35.9v-4h36l-3.7-3.6v-4.4.2Z"/>
+    <g class="st9">
+      <text class="st10" transform="translate(82 616)"><tspan class="st5" x="0" y="0">:thread: </tspan><tspan class="st14" x="160.1" y="0">🧵</tspan><tspan class="st5" x="190.9" y="0"> </tspan></text>
+      <text/>
+    </g>
+    <g class="st9">
+      <text class="st11" transform="translate(81.9 668)"><tspan x="0" y="0">Move or rename resources (e.g.: files, paths, routes).</tspan></text>
+    </g>
+    <g class="st9">
+      <text class="st10" transform="translate(82 757)"><tspan class="st5" x="0" y="0">:test_tube: </tspan><tspan class="st14" x="211" y="0">🧪</tspan></text>
+    </g>
+    <g class="st9">
+      <text/>
+    </g>
+    <g class="st9">
+      <text class="st6" transform="translate(272.7 757)"><tspan x="0" y="0"> </tspan></text>
+      <text/>
+    </g>
+    <g class="st9">
+      <text class="st11" transform="translate(81.9 809)"><tspan x="0" y="0">Add a failing test.</tspan></text>
+    </g>
+    <g class="st9">
+      <text class="st10" transform="translate(86.7 922)"><tspan class="st5" x="0" y="0">:technologist: </tspan><tspan class="st14" x="273.6" y="0">👨‍💻</tspan></text>
+    </g>
+    <g class="st9">
+      <text/>
+    </g>
+    <g class="st9">
+      <text class="st6" transform="translate(339.9 922)"><tspan x="0" y="0"> </tspan></text>
+      <text/>
+    </g>
+    <path class="st12" d="M394.7,886.1"/>
+    <g class="st9">
+      <text class="st11" transform="translate(86.7 974)"><tspan x="0" y="0">A Improve developer experience.</tspan></text>
+    </g>
+  </g>
+  <text/>
+</svg>

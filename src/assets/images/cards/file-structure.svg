@@ -1,0 +1,261 @@
+<svg width="100%" height="1424.33" viewBox="0 0 900 1424.33" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        body {
+          margin: 0;
+          font-family: 'Figtree', sans-serif;
+          background-color: #1a1a1a;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+        }
+        .main-container {
+          font-family: 'Segoe UI', sans-serif;
+          background-color: #2b2b2b;
+          border: 1px solid #4a4a4a;
+          border-radius: 10px;
+          color: #e0e0e0;
+          overflow: hidden;
+          width: 900px;
+          margin: 0 auto;
+        }
+        .header {
+          background-color: #1e1e1e;
+          padding: 8px 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+        }
+        .header-title {
+          color: #cccccc;
+          font-size: 14px;
+          text-align: center;
+          flex-grow: 1;
+        }
+        .window-controls {
+          position: absolute;
+          right: 12px;
+          display: flex;
+          gap: 8px;
+        }
+        .window-control {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          border: 1px solid rgba(0,0,0,0.2);
+        }
+        .dot-red { background-color: #ff5f57; }
+        .dot-yellow { background-color: #ffbd2e; }
+        .dot-green { background-color: #28c940; }
+        .path-box {
+          background-color: #3c3c3c;
+          border: 1px solid #1e1e1e;
+          border-radius: 4px;
+          padding: 6px 12px;
+          margin: 12px;
+          font-size: 14px;
+          color: #f0f0f0;
+          box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .content {
+          padding: 0 20px 20px 20px;
+        }
+        .info-card {
+          background-color: #3c3c3c;
+          padding: 10px 15px;
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin: 6px 0;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+          transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .info-card:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+        }
+        .info-card-border {
+          width: 4px;
+          border-radius: 2px;
+          align-self: stretch;
+        }
+        .border-orange { background-color: #d27633; }
+        .border-blue { background-color: #569cd6; }
+        .border-js { background-color: #f1e05a; }
+        .border-purple { background-color: #9777A8; }
+        .border-gray { background-color: #519aba; }
+        .border-hex { background-color: #4B32C3; }
+        .border-readme { background-color: #519aba; }
+        .info-card-text p {
+          margin: 0;
+          font-size: 14px;
+          line-height: 1.4;
+        }
+        .info-card-text strong {
+          color: #ffffff;
+          display: block;
+          margin-bottom: 2px;
+        }
+        .tree {
+          font-size: 16px;
+        }
+        .tree ul {
+          list-style: none;
+          position: relative;
+          padding-left: 20px;
+          margin: 0;
+        }
+        .tree ul::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 10px;
+          border-left: 1px solid #4a4a4a;
+        }
+        .tree li {
+          position: relative;
+          padding: 4px 0;
+        }
+        .tree li:last-child::before {
+          background-color: transparent;
+        }
+        .icon-js { color: #f1e05a; font-weight: bold; }
+        .icon-css { color: #569cd6; font-weight: bold; }
+        .icon-prettier { color: #9777A8; font-weight: bold; }
+        .icon-eslint { color: #4B32C3; font-weight: bold; }
+        .icon-git { color: #DE4C36; }
+        .icon-info { color: #519aba; }
+        .tree-root > li > .info-card {
+            margin-left: -20px;
+        }
+      </style>
+      <div class="main-container">
+        <div class="header">
+          <span style="position: absolute; left: 12px; font-size: 16px;">🗂️</span>
+          <div class="header-title">Estrutura de Arquivos do Projeto</div>
+          <div class="window-controls">
+            <span class="window-control dot-red"></span>
+            <span class="window-control dot-yellow"></span>
+            <span class="window-control dot-green"></span>
+          </div>
+        </div>
+        <div class="path-box">
+          <span>C:\project-boilerplate\</span>
+        </div>
+        <div class="content">
+          <div class="info-card" style="margin-bottom: 25px;">
+            <div class="info-card-border border-orange"></div>
+            <div class="info-card-text">
+              <strong>Estrutura do Boilerplate Padrão</strong>
+              <p>Este modelo serve como ponto de partida para garantir consistência e boas práticas em novos projetos.</p>
+            </div>
+          </div>
+          <div class="tree tree-root">
+            <ul>
+              <li>
+                <div class="tree-item-content" style="font-size: 18px; margin-bottom: 8px;">
+                  <span>🗂️ </span>
+                  <strong>.main/</strong>
+                </div>
+                <div class="info-card">
+                  <div class="info-card-border border-orange"></div>
+                  <div class="info-card-text"><strong>Diretório Principal</strong><p>Contém todos os arquivos e configurações do projeto.</p></div>
+                </div>
+                <ul>
+                  <li>
+                    <div class="tree-item-content"><span>📁 </span><strong>.src/</strong></div>
+                    <div class="info-card">
+                      <div class="info-card-border border-orange"></div>
+                      <div class="info-card-text"><strong>Código-Fonte</strong><p>O coração do projeto, onde todo o código reside.</p></div>
+                    </div>
+                    <ul>
+                      <li>
+                        <div class="tree-item-content"><span>📁</span><strong>.assets/</strong></div>
+                        <div class="info-card">
+                          <div class="info-card-border border-orange"></div>
+                          <div class="info-card-text"><strong>Recursos Estáticos</strong><p>Armazena todos os arquivos de suporte como estilos, scripts e imagens.</p></div>
+                        </div>
+                        <ul>
+                          <li>
+                            <div class="tree-item-content"><span>📁</span><strong>.css/</strong></div>
+                            <ul>
+                              <li>
+                                <div class="tree-item-content"><span class="icon-css">#</span><span>style.css</span></div>
+                                <div class="info-card">
+                                  <div class="info-card-border border-blue"></div>
+                                  <div class="info-card-text"><strong>Estilos da Aplicação</strong><p>Esta pasta contém a folha de estilos principal (style.css), que define a aparência visual da aplicação.</p></div>
+                                </div>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <div class="tree-item-content"><span>📁 </span><strong>.images/</strong></div>
+                            <div class="info-card">
+                              <div class="info-card-border border-orange"></div>
+                              <div class="info-card-text"><strong>Imagens e Ícones</strong><p>Local para guardar todas as imagens e ícones do projeto.</p></div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="tree-item-content"><span>📁 </span><strong>.js/</strong></div>
+                            <ul>
+                              <li>
+                                <div class="tree-item-content"><span class="icon-js">JS</span><span>main.js</span></div>
+                                <div class="info-card">
+                                  <div class="info-card-border border-js"></div>
+                                  <div class="info-card-text"><strong>Lógica da Aplicação</strong><p>A pasta de scripts contém o arquivo principal (main.js), que controla a interatividade e o comportamento dinâmico.</p></div>
+                                </div>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <div class="tree-item-content"><span>📁 </span><strong>.data/</strong></div>
+                            <div class="info-card">
+                              <div class="info-card-border border-orange"></div>
+                              <div class="info-card-text"><strong>Dados Estáticos</strong><p>Pasta para armazenar dados estáticos, como arquivos JSON ou CSV.</p></div>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="tree-item-content"><span class="icon-git">◆ </span><span>.gitignore</span></div>
+                <div class="info-card">
+                  <div class="info-card-border border-orange"></div>
+                  <div class="info-card-text"><strong>Controle de Versão</strong><p>Define quais arquivos e pastas o Git deve ignorar.</p></div>
+                </div>
+              </li>
+              <li>
+                <div class="tree-item-content"><span class="icon-prettier">{ } </span><span>.prettierrc</span></div>
+                <div class="info-card">
+                  <div class="info-card-border border-purple"></div>
+                  <div class="info-card-text"><strong>Formatador de Código</strong><p>Regras para o Prettier, que mantém a formatação do código consistente.</p></div>
+                </div>
+              </li>
+              <li>
+                <div class="tree-item-content"><span class="icon-eslint">⬟ </span><span>.eslintrc.json</span></div>
+                <div class="info-card">
+                  <div class="info-card-border border-hex"></div>
+                  <div class="info-card-text"><strong>Qualidade de Código</strong><p>Configurações para o ESLint, que encontra e corrige problemas no código.</p></div>
+                </div>
+              </li>
+              <li>
+                <div class="tree-item-content"><span class="icon-info">🛈 </span><span>README.md</span></div>
+                <div class="info-card">
+                  <div class="info-card-border border-readme"></div>
+                  <div class="info-card-text"><strong>Documentação</strong><p>Arquivo principal com a descrição do projeto, instruções de instalação e uso.</p></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

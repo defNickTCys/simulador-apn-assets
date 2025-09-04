@@ -1,0 +1,99 @@
+<svg width="100%" height="200" viewBox="0 0 920 85" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        body {
+          margin: 0;
+          background-color: #1a1a1a;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+        .terminal-container {
+          background-color: #1e1e1e;
+          border-radius: 5px;
+          font-family: Consolas, 'Courier New', monospace;
+          font-size: 14px;
+          line-height: 1.5;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+          color: #d4d4d4;
+          width: 900px;
+          margin: 0 auto;
+        }
+        .terminal-tabs {
+          background-color: #252526;
+          padding: 6px 15px;
+          border-bottom: 1px solid #333333;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+        .tab-group {
+          font-size: 13px;
+        }
+        .tab {
+          color: #808080;
+          padding: 0 10px;
+        }
+        .tab-active {
+          color: #d4d4d4;
+          padding-bottom: 6px;
+          border-bottom: 1px solid #d4d4d4;
+        }
+        .terminal-controls {
+          color: #cccccc;
+          font-size: 13px;
+        }
+        .terminal-control-item {
+          margin: 0 8px;
+        }
+        .terminal-body {
+          padding: 10px 15px;
+        }
+        .prompt {
+          color: #cccccc;
+        }
+        .command {
+          color: #d4d4d4;
+        }
+        .cursor {
+          background-color: #d4d4d4;
+          color: transparent;
+          animation: blink 1s steps(1, end) infinite;
+        }
+        @keyframes blink {
+            to {
+                opacity: 0;
+            }
+        }
+      </style>
+      <div class="terminal-container">
+        <div class="terminal-tabs">
+          <div class="tab-group">
+            <span class="tab">PROBLEMS</span>
+            <span class="tab">OUTPUT</span>
+            <span class="tab">DEBUG CONSOLE</span>
+            <span class="tab tab-active">TERMINAL</span>
+            <span class="tab">PORTS</span>
+          </div>
+          <div class="terminal-controls">
+            <span class="terminal-control-item">powershell</span>
+            <span class="terminal-control-item">+</span>
+            <span class="terminal-control-item">...</span>
+            <span class="terminal-control-item">✕</span>
+          </div>
+        </div>
+        <div class="terminal-body">
+          <div>
+            <span class="prompt">PS C:\Projetos\meu-site&gt; </span>
+            <span class="command">mkdir 'src/assets/css', 'src/assets/js', 'src/assets/images', 'src/data'</span>
+            <span class="cursor">█</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
